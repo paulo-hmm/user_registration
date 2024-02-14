@@ -10,6 +10,7 @@
 
     <title>Cadastre-me!</title>
   </head>
+  
   <body>
 
     <nav style="background-color: aquamarine !important;" class="navbar navbar-light bg-light">
@@ -19,6 +20,7 @@
     </nav>
 
     <form action="{% url 'lista_usuarios' %}" method="post">
+        {% csrf_token %}
         <div style="text-align: center;" class="container">
             <h1 style="margin-bottom: 50px;">Cadastro de Usuários</h1>
             Nome: <input name="nome" class="form-control-sm" type="text">
