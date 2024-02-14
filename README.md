@@ -52,7 +52,7 @@ python manage.py runserver
 
 ## Utilização
 
-1. Na página inicial, você encontrará um formulário de cadastro de usuário. Preencha os campos necessários e clique em "Cadastrar".
+1. Na página inicial, você encontrará um formulário de cadastro de usuário. Preencha os campos necessários e clique em "Enviar".
 2. Após o cadastro, os usuários serão listados na página de visualização de usuários.
 
 ## Contribuição
